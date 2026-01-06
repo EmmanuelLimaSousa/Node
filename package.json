@@ -1,0 +1,17 @@
+{
+  "name": "primeiro",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Emmanuel",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node --env-file=.env --import=tsx --watch ./src/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
